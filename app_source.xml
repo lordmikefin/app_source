@@ -14,6 +14,7 @@
       </versions>
       <plugins>
         <plugin name="pydev">
+          <latest>7.4.0</latest>
           <versions>
             <version string="7.4.0">
               <url>https://sourceforge.net/projects/pydev/files/pydev/PyDev%207.4.0/PyDev 7.4.0.zip/download</url>
@@ -22,7 +23,6 @@
           </versions>
         </plugin>
       </plugins>
-      <latest>7.4.0</latest>
     </app>
   </apps>
 </source>
