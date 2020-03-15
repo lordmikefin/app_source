@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <source>
   <!-- Supported version of "app_source" -->
-  <version>0.0.4</version>
+  <version>0.0.5</version>
   <apps>
     <app name="eclipse">
       <latest>2019-09</latest>
@@ -10,6 +10,7 @@
           <url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-win32-x86_64.zip</url>
           <md5url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-win32-x86_64.zip.md5</md5url>
           <md5sum>7b97b5c42cb30f36f14b8c90342a9e55</md5sum>
+          <file>eclipse-javascript-2019-09-R-win32-x86_64.zip</file>
         </version>
       </versions>
       <plugins>
@@ -19,6 +20,7 @@
             <version string="7.4.0">
               <url>https://sourceforge.net/projects/pydev/files/pydev/PyDev%207.4.0/PyDev 7.4.0.zip/download</url>
               <md5sum>722dfe4a9bf1f50a2766c4d58eb6dd4d</md5sum>
+              <file>PyDev 7.4.0.zip</file>
             </version>
           </versions>
         </plugin>
