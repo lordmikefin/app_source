@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <source>
   <!-- Supported version of "app_source" -->
-  <version>0.0.5</version>
+  <version>0.0.6</version>
   <apps>
     <app name="eclipse">
       <latest>2019-12</latest>
@@ -35,6 +35,16 @@
           </versions>
         </plugin>
       </plugins>
+    </app>
+    <app name="java">
+      <latest>jdk-8.0.242.08-hotspot</latest>
+      <versions>
+        <version string="jdk-8.0.242.08-hotspot">
+          <url>https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi</url>
+          <file>OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi</file>
+          <sha256url>https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi.sha256.txt</sha256url>
+        </version>
+      </versions>
     </app>
   </apps>
 </source>
