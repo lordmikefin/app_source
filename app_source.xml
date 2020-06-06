@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <source>
   <!-- Supported version of "app_source" -->
-  <version>0.0.7</version>
+  <version>0.0.8</version>
   <apps>
     <app name="eclipse">
       <latest>2019-12</latest>
@@ -43,6 +43,16 @@
           <url>https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi</url>
           <file>OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi</file>
           <sha256url>https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi.sha256.txt</sha256url>
+        </version>
+      </versions>
+    </app>
+    <app name="npp">
+      <latest>7.7.1</latest>
+      <versions>
+        <version string="7.7.1">
+          <url>http://download.notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.x64.exe</url>
+          <file>npp.7.7.1.Installer.x64.exe</file>
+          <sha256url>http://download.notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.checksums.sha256</sha256url>
         </version>
       </versions>
     </app>
