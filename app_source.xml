@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <source>
   <!-- Supported version of "app_source" -->
-  <version>0.0.9</version>
+  <version>0.0.10</version>
   <apps>
     <app name="eclipse">
       <latest>2019-12</latest>
@@ -9,12 +9,14 @@
         <version string="2019-09">
           <url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-win32-x86_64.zip</url>
           <md5url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-win32-x86_64.zip.md5</md5url>
+          <md5file>eclipse-javascript-2019-09-R-win32-x86_64.zip.md5</md5file>
           <md5sum>7b97b5c42cb30f36f14b8c90342a9e55</md5sum>
           <file>eclipse-javascript-2019-09-R-win32-x86_64.zip</file>
         </version>
         <version string="2019-12">
           <url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-win32-x86_64.zip</url>
           <md5url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-win32-x86_64.zip.md5</md5url>
+          <md5file>eclipse-javascript-2019-12-R-win32-x86_64.zip.md5</md5file>
           <file>eclipse-javascript-2019-12-R-win32-x86_64.zip</file>
         </version>
       </versions>
@@ -43,6 +45,7 @@
           <url>https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi</url>
           <file>OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi</file>
           <sha256url>https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi.sha256.txt</sha256url>
+          <sha256file>OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi.sha256.txt</sha256file>
         </version>
       </versions>
     </app>
@@ -53,6 +56,7 @@
           <url>http://download.notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.x64.exe</url>
           <file>npp.7.7.1.Installer.x64.exe</file>
           <sha256url>http://download.notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.checksums.sha256</sha256url>
+          <sha256file>npp.7.7.1.checksums.sha256</sha256file>
         </version>
       </versions>
     </app>
