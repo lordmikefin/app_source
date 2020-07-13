@@ -79,5 +79,15 @@
         </version>
       </versions>
     </app>
+    <app name="git">
+      <latest>2.24.1</latest>
+      <versions>
+        <version string="2.24.1">
+          <url>https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-64-bit.exe</url>
+          <file>Git-2.24.1.2-64-bit.exe</file>
+          <sha256sum>34e484936105713e7d0c2f421bf62e4cfe652f6638a9ecb5df2186c1918753e2</sha256sum>
+        </version>
+      </versions>
+    </app>
   </apps>
 </source>
