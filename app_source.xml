@@ -69,5 +69,15 @@
         </version>
       </versions>
     </app>
+    <app name="python">
+      <latest>3.8.1</latest>
+      <versions>
+        <version string="3.8.1">
+          <url>https://www.python.org/ftp/python/3.8.1/python-3.8.1-amd64.exe</url>
+          <md5sum>3e4c42f5ff8fcdbe6a828c912b7afdb1</md5sum>
+          <file>python-3.8.1-amd64.exe</file>
+        </version>
+      </versions>
+    </app>
   </apps>
 </source>
