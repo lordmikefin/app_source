@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <source>
   <!-- Supported version of "app_source" -->
-  <version>0.0.15</version>
+  <version>0.0.16</version>
   <apps>
     <app name="eclipse">
       <latest>2019-12</latest>
