@@ -7,16 +7,28 @@
       <latest>2019-12</latest>
       <versions>
         <version string="2019-09">
-          <url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-win32-x86_64.zip</url>
-          <md5url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-win32-x86_64.zip.md5</md5url>
-          <md5file>eclipse-javascript-2019-09-R-win32-x86_64.zip.md5</md5file>
-          <file>eclipse-javascript-2019-09-R-win32-x86_64.zip</file>
+          <platform name="win32">
+            <url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-win32-x86_64.zip</url>
+            <md5url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-win32-x86_64.zip.md5</md5url>
+            <md5file>eclipse-javascript-2019-09-R-win32-x86_64.zip.md5</md5file>
+            <file>eclipse-javascript-2019-09-R-win32-x86_64.zip</file>
+          </platform>
         </version>
         <version string="2019-12">
-          <url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-win32-x86_64.zip</url>
-          <md5url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-win32-x86_64.zip.md5</md5url>
-          <md5file>eclipse-javascript-2019-12-R-win32-x86_64.zip.md5</md5file>
-          <file>eclipse-javascript-2019-12-R-win32-x86_64.zip</file>
+          <platform name="win32">
+            <url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-win32-x86_64.zip</url>
+            <md5url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-win32-x86_64.zip.md5</md5url>
+            <md5file>eclipse-javascript-2019-12-R-win32-x86_64.zip.md5</md5file>
+            <file>eclipse-javascript-2019-12-R-win32-x86_64.zip</file>
+          </platform>
+        </version>
+        <version string="2019-12">
+          <platform name="linux">
+            <url>http://ftp.fau.de/eclipse/technology/epp/downloads/release/2019-12/R/eclipse-java-2019-12-R-linux-gtk-x86_64.tar.gz</url>
+            <md5url>http://ftp.fau.de/eclipse/technology/epp/downloads/release/2019-12/R/eclipse-java-2019-12-R-linux-gtk-x86_64.tar.gz.md5</md5url>
+            <md5file>eclipse-java-2019-12-R-linux-gtk-x86_64.tar.gz.md5</md5file>
+            <file>eclipse-java-2019-12-R-linux-gtk-x86_64.tar.gz</file>
+          </platform>
         </version>
       </versions>
       <plugins>
@@ -24,14 +36,25 @@
           <latest>7.5.0</latest>
           <versions>
             <version string="7.4.0">
-              <url>https://sourceforge.net/projects/pydev/files/pydev/PyDev%207.4.0/PyDev 7.4.0.zip/download</url>
-              <md5sum>722dfe4a9bf1f50a2766c4d58eb6dd4d</md5sum>
-              <file>PyDev 7.4.0.zip</file>
+              <platform name="win32">
+                <url>https://sourceforge.net/projects/pydev/files/pydev/PyDev%207.4.0/PyDev 7.4.0.zip/download</url>
+                <md5sum>722dfe4a9bf1f50a2766c4d58eb6dd4d</md5sum>
+                <file>PyDev 7.4.0.zip</file>
+              </platform>
             </version>
             <version string="7.5.0">
-              <url>https://sourceforge.net/projects/pydev/files/pydev/PyDev%207.5.0/PyDev 7.5.0.zip/download</url>
-              <md5sum>ca391869d7d9358cab4e2e162a03b57f</md5sum>
-              <file>PyDev 7.5.0.zip</file>
+              <platform name="win32">
+                <url>https://sourceforge.net/projects/pydev/files/pydev/PyDev%207.5.0/PyDev 7.5.0.zip/download</url>
+                <md5sum>ca391869d7d9358cab4e2e162a03b57f</md5sum>
+                <file>PyDev 7.5.0.zip</file>
+              </platform>
+            </version>
+            <version string="7.5.0">
+              <platform name="linux">
+                <url>https://sourceforge.net/projects/pydev/files/pydev/PyDev%207.5.0/PyDev 7.5.0.zip/download</url>
+                <md5sum>ca391869d7d9358cab4e2e162a03b57f</md5sum>
+                <file>PyDev 7.5.0.zip</file>
+              </platform>
             </version>
           </versions>
         </plugin>
@@ -41,10 +64,12 @@
       <latest>jdk-8.0.242.08-hotspot</latest>
       <versions>
         <version string="jdk-8.0.242.08-hotspot">
-          <url>https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi</url>
-          <file>OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi</file>
-          <sha256url>https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi.sha256.txt</sha256url>
-          <sha256file>OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi.sha256.txt</sha256file>
+          <platform name="win32">
+            <url>https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi</url>
+            <file>OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi</file>
+            <sha256url>https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi.sha256.txt</sha256url>
+            <sha256file>OpenJDK8U-jdk_x64_windows_hotspot_8u242b08.msi.sha256.txt</sha256file>
+          </platform>
         </version>
       </versions>
     </app>
@@ -52,10 +77,12 @@
       <latest>7.7.1</latest>
       <versions>
         <version string="7.7.1">
-          <url>http://download.notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.x64.exe</url>
-          <file>npp.7.7.1.Installer.x64.exe</file>
-          <sha256url>http://download.notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.checksums.sha256</sha256url>
-          <sha256file>npp.7.7.1.checksums.sha256</sha256file>
+          <platform name="win32">
+            <url>http://download.notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.x64.exe</url>
+            <file>npp.7.7.1.Installer.x64.exe</file>
+            <sha256url>http://download.notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.checksums.sha256</sha256url>
+            <sha256file>npp.7.7.1.checksums.sha256</sha256file>
+          </platform>
         </version>
       </versions>
     </app>
@@ -63,9 +90,11 @@
       <latest>0.73</latest>
       <versions>
         <version string="0.73">
-          <url>https://the.earth.li/~sgtatham/putty/0.73/w64/putty-64bit-0.73-installer.msi</url>
-          <md5sum>a64da9e511b07f7deab633fb64b6535f</md5sum>
-          <file>putty-64bit-0.73-installer.msi</file>
+          <platform name="win32">
+            <url>https://the.earth.li/~sgtatham/putty/0.73/w64/putty-64bit-0.73-installer.msi</url>
+            <md5sum>a64da9e511b07f7deab633fb64b6535f</md5sum>
+            <file>putty-64bit-0.73-installer.msi</file>
+          </platform>
         </version>
       </versions>
     </app>
@@ -73,9 +102,11 @@
       <latest>3.8.1</latest>
       <versions>
         <version string="3.8.1">
-          <url>https://www.python.org/ftp/python/3.8.1/python-3.8.1-amd64.exe</url>
-          <md5sum>3e4c42f5ff8fcdbe6a828c912b7afdb1</md5sum>
-          <file>python-3.8.1-amd64.exe</file>
+          <platform name="win32">
+            <url>https://www.python.org/ftp/python/3.8.1/python-3.8.1-amd64.exe</url>
+            <md5sum>3e4c42f5ff8fcdbe6a828c912b7afdb1</md5sum>
+            <file>python-3.8.1-amd64.exe</file>
+          </platform>
         </version>
       </versions>
     </app>
@@ -83,9 +114,11 @@
       <latest>2.24.1</latest>
       <versions>
         <version string="2.24.1">
-          <url>https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-64-bit.exe</url>
-          <file>Git-2.24.1.2-64-bit.exe</file>
-          <sha256sum>34e484936105713e7d0c2f421bf62e4cfe652f6638a9ecb5df2186c1918753e2</sha256sum>
+          <platform name="win32">
+            <url>https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-64-bit.exe</url>
+            <file>Git-2.24.1.2-64-bit.exe</file>
+            <sha256sum>34e484936105713e7d0c2f421bf62e4cfe652f6638a9ecb5df2186c1918753e2</sha256sum>
+          </platform>
         </version>
       </versions>
     </app>
@@ -93,9 +126,11 @@
       <latest>2.16.6</latest>
       <versions>
         <version string="2.16.6">
-          <url>https://downloads.sourceforge.net/winmerge/WinMerge-2.16.6-Setup.exe</url>
-          <file>WinMerge-2.16.6-Setup.exe</file>
-          <sha256sum>b55de4fc99487e99ecb271a62e13ed6808b9ba3a96bf7d6b65cbee707b16fff1</sha256sum>
+          <platform name="win32">
+            <url>https://downloads.sourceforge.net/winmerge/WinMerge-2.16.6-Setup.exe</url>
+            <file>WinMerge-2.16.6-Setup.exe</file>
+            <sha256sum>b55de4fc99487e99ecb271a62e13ed6808b9ba3a96bf7d6b65cbee707b16fff1</sha256sum>
+          </platform>
         </version>
       </versions>
     </app>
