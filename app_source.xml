@@ -78,9 +78,9 @@
       <versions>
         <version string="7.7.1">
           <platform name="win32">
-            <url>http://download.notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.x64.exe</url>
+            <url>https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.7.1/npp.7.7.1.Installer.x64.exe</url>
             <file>npp.7.7.1.Installer.x64.exe</file>
-            <sha256url>http://download.notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.checksums.sha256</sha256url>
+            <sha256url>https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.7.1/npp.7.7.1.checksums.sha256</sha256url>
             <sha256file>npp.7.7.1.checksums.sha256</sha256file>
           </platform>
         </version>
