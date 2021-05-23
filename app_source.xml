@@ -22,12 +22,20 @@
             <file>eclipse-javascript-2019-12-R-win32-x86_64.zip</file>
           </platform>
         </version>
+        <version string="2019-09">
+          <platform name="linux">
+            <url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-linux-gtk-x86_64.tar.gz</url>
+            <md5url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-linux-gtk-x86_64.tar.gz.md5</md5url>
+            <md5file>eclipse-javascript-2019-09-R-linux-gtk-x86_64.tar.gz.md5</md5file>
+            <file>eclipse-javascript-2019-09-R-linux-gtk-x86_64.tar.gz</file>
+          </platform>
+        </version>
         <version string="2019-12">
           <platform name="linux">
-            <url>http://ftp.fau.de/eclipse/technology/epp/downloads/release/2019-12/R/eclipse-java-2019-12-R-linux-gtk-x86_64.tar.gz</url>
-            <md5url>http://ftp.fau.de/eclipse/technology/epp/downloads/release/2019-12/R/eclipse-java-2019-12-R-linux-gtk-x86_64.tar.gz.md5</md5url>
-            <md5file>eclipse-java-2019-12-R-linux-gtk-x86_64.tar.gz.md5</md5file>
-            <file>eclipse-java-2019-12-R-linux-gtk-x86_64.tar.gz</file>
+            <url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-linux-gtk-x86_64.tar.gz</url>
+            <md5url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-linux-gtk-x86_64.tar.gz.md5</md5url>
+            <md5file>eclipse-javascript-2019-12-R-linux-gtk-x86_64.tar.gz.md5</md5file>
+            <file>eclipse-javascript-2019-12-R-linux-gtk-x86_64.tar.gz</file>
           </platform>
         </version>
       </versions>
@@ -47,6 +55,13 @@
                 <url>https://sourceforge.net/projects/pydev/files/pydev/PyDev%207.5.0/PyDev 7.5.0.zip/download</url>
                 <md5sum>ca391869d7d9358cab4e2e162a03b57f</md5sum>
                 <file>PyDev 7.5.0.zip</file>
+              </platform>
+            </version>
+            <version string="7.4.0">
+              <platform name="linux">
+                <url>https://sourceforge.net/projects/pydev/files/pydev/PyDev%207.4.0/PyDev 7.4.0.zip/download</url>
+                <md5sum>722dfe4a9bf1f50a2766c4d58eb6dd4d</md5sum>
+                <file>PyDev 7.4.0.zip</file>
               </platform>
             </version>
             <version string="7.5.0">
