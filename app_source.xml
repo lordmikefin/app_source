@@ -1,39 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <source>
   <!-- Supported version of "app_source" -->
-  <version>0.1.2</version>
+  <version>0.1.4</version>
   <apps>
     <app name="eclipse">
       <latest>2019-12</latest>
       <versions>
         <version string="2019-09">
           <platform name="win32">
-            <url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-win32-x86_64.zip</url>
-            <md5url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-win32-x86_64.zip.md5</md5url>
+            <url>https://archive.eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-win32-x86_64.zip</url>
+            <md5url>https://archive.eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-win32-x86_64.zip.md5</md5url>
             <md5file>eclipse-javascript-2019-09-R-win32-x86_64.zip.md5</md5file>
             <file>eclipse-javascript-2019-09-R-win32-x86_64.zip</file>
           </platform>
         </version>
         <version string="2019-12">
           <platform name="win32">
-            <url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-win32-x86_64.zip</url>
-            <md5url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-win32-x86_64.zip.md5</md5url>
+            <url>https://archive.eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-win32-x86_64.zip</url>
+            <md5url>https://archive.eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-win32-x86_64.zip.md5</md5url>
             <md5file>eclipse-javascript-2019-12-R-win32-x86_64.zip.md5</md5file>
             <file>eclipse-javascript-2019-12-R-win32-x86_64.zip</file>
           </platform>
         </version>
         <version string="2019-09">
           <platform name="linux">
-            <url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-linux-gtk-x86_64.tar.gz</url>
-            <md5url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-linux-gtk-x86_64.tar.gz.md5</md5url>
+            <url>https://archive.eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-linux-gtk-x86_64.tar.gz</url>
+            <md5url>https://archive.eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-javascript-2019-09-R-linux-gtk-x86_64.tar.gz.md5</md5url>
             <md5file>eclipse-javascript-2019-09-R-linux-gtk-x86_64.tar.gz.md5</md5file>
             <file>eclipse-javascript-2019-09-R-linux-gtk-x86_64.tar.gz</file>
           </platform>
         </version>
         <version string="2019-12">
           <platform name="linux">
-            <url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-linux-gtk-x86_64.tar.gz</url>
-            <md5url>https://ftp.acc.umu.se/mirror/eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-linux-gtk-x86_64.tar.gz.md5</md5url>
+            <url>https://archive.eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-linux-gtk-x86_64.tar.gz</url>
+            <md5url>https://archive.eclipse.org/technology/epp/downloads/release/2019-12/R/eclipse-javascript-2019-12-R-linux-gtk-x86_64.tar.gz.md5</md5url>
             <md5file>eclipse-javascript-2019-12-R-linux-gtk-x86_64.tar.gz.md5</md5file>
             <file>eclipse-javascript-2019-12-R-linux-gtk-x86_64.tar.gz</file>
           </platform>
